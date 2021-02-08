@@ -44,7 +44,6 @@
 /* Begin PBXFileReference section */
 		6B2DF86E210E2C12004D2D40 /* DifferenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2DF877210E2C12004D2D40 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B2DF88A210E39A8004D2D40 /* DifferenceKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DifferenceKit.xcconfig; sourceTree = "<group>"; };
 		6B444B382163312700AEE32B /* ContentEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEquatable.swift; sourceTree = "<group>"; };
 		6B444B3E2165E3D700AEE32B /* ContentEquatableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEquatableTest.swift; sourceTree = "<group>"; };
 		6B5B4086211066B300A931DB /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
@@ -94,7 +93,6 @@
 			children = (
 				6B5B4085211066B300A931DB /* Sources */,
 				6B5B4092211066BF00A931DB /* Tests */,
-				6B2DF889210E39A8004D2D40 /* XCConfigs */,
 				6B2DF86F210E2C12004D2D40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,14 +104,6 @@
 				6B2DF877210E2C12004D2D40 /* Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6B2DF889210E39A8004D2D40 /* XCConfigs */ = {
-			isa = PBXGroup;
-			children = (
-				6B2DF88A210E39A8004D2D40 /* DifferenceKit.xcconfig */,
-			);
-			path = XCConfigs;
 			sourceTree = "<group>";
 		};
 		6B5B4085211066B300A931DB /* Sources */ = {
@@ -459,7 +449,6 @@
 		};
 		6B2DF883210E2C12004D2D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B2DF88A210E39A8004D2D40 /* DifferenceKit.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ARCHS = (
@@ -497,7 +486,6 @@
 		};
 		6B2DF884210E2C12004D2D40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B2DF88A210E39A8004D2D40 /* DifferenceKit.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ARCHS = (
@@ -534,7 +522,6 @@
 		};
 		6B2DF886210E2C12004D2D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B2DF88A210E39A8004D2D40 /* DifferenceKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -557,7 +544,6 @@
 		};
 		6B2DF887210E2C12004D2D40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B2DF88A210E39A8004D2D40 /* DifferenceKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
